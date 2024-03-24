@@ -18,7 +18,7 @@ useEffect(() => {
   fetchCountries();
 }, []);
  
-// console.log(countries);
+console.log(countries);
 
 return (
   <div className={styles.grid}>
